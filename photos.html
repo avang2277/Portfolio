@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PHOTOS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap Stylesheet-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" alt="Portfolio Logo" height="100" width="300" class="img-fluid logo">
+	
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="javascript.html">Javascript</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<u><h1>Photos</h1></u>
+				</div>
+				<div class="col-sm-12">
+					<div class="gallery">
+						<div class="preview">
+        					<img id="preview" src="images/skyway.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+   						</div>
+   						<b><p>Here is a sneakpeak of some of the photographs I have taken around Saint Paul in the SkyWay!</p></b>
+    					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/elk.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/elevator2.jpg" alt=""  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/cross.jpg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/window.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+	<br><small>&copy; 2021 Anthony Vang. All rights reservered</small>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</body>

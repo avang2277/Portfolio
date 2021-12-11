@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+header{
+	text-align: center;
+}
+
+h1, h2{
+	font-family: 'Cinzel', sans-serif;
+}
+ 
+ header{
+ 	color: white;
+ 	background-color: black;
+ 	border-bottom: solid black;
+
+ }
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color: black;
+}
+
+
+nav{
+	max-width: 100%;
+	text-align: center;
+	background-color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: black;
+	
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:link{
+	color: purple;
+}
+
+nav a:visited{
+	color:  purple;
+}
+
+nav a:hover{
+	color: orange;
+}
+
+nav a:active{
+	color: red;
+}
+
+main{
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.col-sm-2{
+	font-size: 75px;
+}
+
+p{
+    margin-bottom: 1rem;
+    color: white;
+    margin-block-start: 2em;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+i{
+	color: white;
+}
+
+footer{
+	background-color: lightgray;
+	padding-top: 10px;
+	text-align: center;
+	max-width: 100%;
+}
+footer h3{
+	text-align: center;
+
+}
+
+footer p{
+	margin: 0;
+	padding-left: 25px;
+	text-align: left;
+}
+
+footer li{
+	text-align: center;
+	font-size: 1.25em;
+	list-style-type: none;
+}
+
+}
+
+footer a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+footer a:link{
+	color: purple;
+}
+
+footer a:visited{
+	color:  purple;
+}
+
+footer a:hover{
+	color: orange;
+}
+
+footer a:active{
+	color: red;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 3em;
+}
+
+
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+		h1{
+			font-size: 2em;
+		}
+}
+
+
+
+/*CSS for SmartPhones */
+@media only screen and (max-width: 768px){
+		h1{
+			font-size: 1.5em;
+		}
+}

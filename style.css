@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+header{
+	text-align: center;
+	background-color: black;
+	padding-bottom: 1px;
+	max-height: 200px;
+}
+h1{
+	text-align: center;
+	padding-top: 15px;
+}
+
+h1, h2, nav{
+	font-family: 'Cinzel', sans-serif;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+
+nav{
+	
+	max-height: 35px;
+	border-bottom: 1px solid darkgray;
+	font-size: 1.5em;
+	background-color: darkgray;
+	
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 1.5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+nav a:link{
+	color: black;
+}
+
+nav a:visited{
+	color:  black;
+}
+
+nav a:hover{
+	color: lightgray;
+	text-decoration: none;
+	border: 1px solid black;
+	background-color: black;
+}
+
+nav a:active{
+	color: white;
+}
+
+
+main{
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+
+#index-para1{
+	padding-top: 3px;
+	color: black;
+	font-size: 1.25em;
+	background-color: lightgray;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+#index-para2{
+
+	text-align: center;
+}
+
+#me1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+
+#indeximg{
+
+	max-width: 1200px;
+	max-height: 400px;
+
+}
+
+
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding-top: 10px;
+}
+
+
+footer h3{
+	text-align: center;
+
+}
+
+footer p{
+	margin: 0;
+	padding-left: 25px;
+	text-align: left;
+}
+
+footer li{
+	text-align: center;
+	font-size: 1.25em;
+	list-style-type: none;
+}
+
+
+footer a{
+	text-decoration: none;
+	padding: 10px;
+}
+
+footer a:link{
+	color: white;
+}
+
+footer a:visited{
+	color:  white;
+}
+
+footer a:hover{
+	color: lightgray;
+	text-decoration: underline;
+}
+
+footer a:active{
+	color: white;
+}
+
+/*gallery*/
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*javascript*/
+
+canvas{
+
+ 	margin: 0 auto;
+  	display: block;
+  	border: 10px solid black;
+  	background-image: url(images/space.png);
+
+}
+
+.game-controls{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+
+input[type=submit]{
+	display: block;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+h1{
+	font-size: 3em;
+}
+
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+		h1{
+			font-size: 2em;
+		}
+}
+
+
+
+/*CSS for SmartPhones */
+@media only screen and (max-width: 768px){
+		h1{
+			font-size: 1.5em;
+		}
+}
